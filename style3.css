@@ -9,13 +9,9 @@ body {
   background-position-x: center;
   /* background-image: url('MUGABO.png'); */
   position: relative;
-}
-
-.nyaxo {
-  position: absolute;
-  left: 25%;
-  opacity: 0.6;
-  z-index: -10;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav {
@@ -45,43 +41,45 @@ nav ul li {
 .nav__link:hover {
   color: rgba(185, 215, 134, 1);
 }
-.container {
-  display: flex;
-  margin: auto;
+.contact {
+  margin-top: 100px;
+  color: beige;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
 }
-.intro {
-  padding-top: 150px;
-  margin: auto;
-  font-size: 15px;
-  color: white;
+.contact h1 {
   font-family: "Rammetto One", cursive;
+  line-height: 10px;
 }
-.button {
-  padding-top: 100px;
-  font-family: "Allerta Stencil", sans-serif;
-  background-color: rgba(185, 215, 134, 1);
-  padding: 10px 30px;
-  text-decoration: none;
-  border-radius: 50px;
-  display: inline-block;
-  color: rgb(2, 2, 2);
-  font-weight: 600;
-  border: 1px solid transparent;
-  transition: color 5s;
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
 }
-.button:hover {
-  background: white;
+.control {
+  color: bisque;
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  margin-bottom: 16;
 }
-.quotes {
-  font-size: x-large;
-  margin-top: 150px;
-  margin-right: 100px;
-  color: rgba(212, 249, 153, 0.97);
-  font-family: "Allerta Stencil", sans-serif;
+input {
+  height: 45px;
 }
-.quotes h4 {
-  font-family: "Allerta Stencil", sans-serif;
-  text-align: center;
+form .send {
+  background: rgba(27, 27, 27, 0.822);
+  border-color: transparent;
+  color: beige;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 45%;
+  margin-top: 20px;
+}
+form .send:hover {
+  color: rgba(185, 215, 134, 1);
 }
 .footer {
   display: flex;
