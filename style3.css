@@ -106,6 +106,12 @@ form .send:hover {
 .icon {
   color: rgba(117, 158, 18, 1);
 }
+.icon:hover {
+  color: aliceblue;
+}
 .copy {
   color: white;
+}
+.fa fa-code {
+  color: aliceblue;
 }

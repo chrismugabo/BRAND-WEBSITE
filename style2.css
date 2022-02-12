@@ -40,7 +40,10 @@ body {
   max-width: 1140px;
   margin: 0 auto;
 }
-
+.about__content {
+  text-indent: 30px;
+  font-size: 20px;
+}
 .personal-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -102,4 +105,7 @@ body {
 }
 .icon {
   color: rgba(117, 158, 18, 1);
+}
+.icon:hover {
+  color: aliceblue;
 }

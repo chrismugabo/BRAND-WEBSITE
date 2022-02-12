@@ -1,1 +1,198 @@
- 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(27, 27, 27, 0.822);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  /* background-image: url('MUGABO.png'); */
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  margin: auto;
+}
+.logo {
+  margin-top: -20px;
+  width: 100px;
+  cursor: pointer;
+}
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+.nav__link {
+  font-family: "Rammetto One", cursive;
+  text-decoration: none;
+  color: white;
+}
+.nav__link:hover {
+  color: rgba(185, 215, 134, 1);
+}
+.footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.social {
+  margin: 0 0.5rem;
+}
+
+.footer h4 {
+  font-family: "Allerta Stencil", sans-serif;
+  margin: 0 auto;
+}
+.lower {
+  display: inline-block;
+}
+.icon {
+  color: rgba(117, 158, 18, 1);
+}
+.icon:hover {
+  color: aliceblue;
+}
+.copy {
+  color: white;
+}
+.content-box {
+  color: black;
+  height: 200vh;
+}
+h1 {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-family: "Rammetto One", cursive;
+}
+h1::after {
+  content: "";
+  background: aquamarine;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 50px;
+}
+.service .icon {
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 18px;
+  height: 70px;
+  width: 70px;
+  border: 1px solid #008000;
+  border-radius: 50%;
+  color: #008000;
+}
+.service p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #fff;
+  padding: 20px;
+}
+.service span {
+  color: #008000;
+  transition: -5s;
+}
+.service .col:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), black);
+  cursor: pointer;
+  color: #000;
+  box-shadow: -5px 5px 10px o rgba(0, 0, 0, 0.4);
+  transition: -5s;
+}
+.service .col:hover .icon {
+  border: 1px solid #fff;
+  color: white;
+}
+.service .col:hover p {
+  color: #fff;
+}
+.service .col:hover span {
+  color: #fff;
+}
+.service-section {
+  padding: 60px, 0;
+}
+.inner-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-box {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+.service-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid aqua;
+  color: white;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i {
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover {
+  background: rgb(107, 104, 104);
+  color: #ddd;
+}
+.service-title {
+  font-family: "Rammetto One", cursive;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.service-desc {
+  font-size: 14px;
+}
+@media screen and (max-width: 960px) {
+  .service-box {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service-box {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .service-box {
+    max-width: 45%;
+  }
+}
