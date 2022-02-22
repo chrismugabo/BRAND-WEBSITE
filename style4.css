@@ -147,10 +147,11 @@ h1::after {
   justify-content: center;
 }
 .service-box {
+  color: #fff;
   max-width: 33.33%;
   padding: 10px;
   text-align: center;
-  color: #ddd;
+
   cursor: pointer;
 }
 .service-icon {

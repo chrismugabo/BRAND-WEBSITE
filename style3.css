@@ -41,7 +41,19 @@ nav ul li {
 .nav__link:hover {
   color: rgba(185, 215, 134, 1);
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form {
+  padding: 10px;
+  text-align: center;
+  max-width: 35%;
+}
 .contact {
+  text-align: center;
   margin-top: 100px;
   color: beige;
   text-transform: uppercase;
@@ -114,4 +126,24 @@ form .send:hover {
 }
 .fa fa-code {
   color: aliceblue;
+}
+@media screen and (max-width: 1080px) {
+  .contact-form {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .contact-form {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .contact-form {
+    max-width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-form {
+    max-width: 80%;
+  }
 }

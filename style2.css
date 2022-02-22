@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -59,7 +64,7 @@ body {
   object-fit: center;
 }
 .profile-img {
-  width: 62%;
+  max-width: 62%;
   height: 100%;
   margin-left: -250px;
   background-position: center;
