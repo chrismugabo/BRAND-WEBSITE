@@ -36,7 +36,44 @@ nav ul li {
   text-decoration: none;
   color: white;
 }
-.nav__link:hover {
+.home {
+  font-family: "Rammetto One", cursive;
+  text-decoration: none;
+  color: white;
+}
+.about {
+  font-family: "Rammetto One", cursive;
+  text-decoration: none;
+  color: white;
+}
+.blog {
+  font-family: "Rammetto One", cursive;
+  text-decoration: none;
+  color: rgba(185, 215, 134, 1);
+}
+.services {
+  font-family: "Rammetto One", cursive;
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  font-family: "Rammetto One", cursive;
+  text-decoration: none;
+  color: white;
+}
+.home:hover {
+  color: rgba(185, 215, 134, 1);
+}
+.about:hover {
+  color: rgba(185, 215, 134, 1);
+}
+.blog:hover {
+  color: rgba(185, 215, 134, 1);
+}
+.services:hover {
+  color: rgba(185, 215, 134, 1);
+}
+.contact:hover {
   color: rgba(185, 215, 134, 1);
 }
 .footer {
